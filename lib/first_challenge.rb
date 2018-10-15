@@ -12,8 +12,13 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+contacts.each do |person, data|
+  first_challenge(["Freddy Mercury"][:favorite_icesream_flavors]).delete("strawberry")
+  
+puts first_challenge["Freddy Mercury"]:favorite_icesream_flavors]
   #your code here
+
+  
 
 
   #remember to return your newly altered contacts hash!
